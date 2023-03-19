@@ -22,3 +22,4 @@ class RecipeDetailSerializer(RecipeSerializer):
     # We get all the meta value that were provided in the RecipeSeializer
     class Meta(RecipeSerializer.Meta):
         fields = RecipeSerializer.Meta.fields + ['description']
+  
